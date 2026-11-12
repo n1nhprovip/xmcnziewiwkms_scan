@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Production-VPS-01",
+    "host": "203.0.113.10",
+    "port": 22,
+    "user": "root",
+    "key_path": "~/.ssh/id_ed25519",
+    "password": ""
+  },
+  {
+    "name": "Production-VPS-02",
+    "host": "198.51.100.20",
+    "port": 22,
+    "user": "root",
+    "key_path": "",
+    "password": "YOUR_SSH_PASSWORD_HERE"
+  }
+]

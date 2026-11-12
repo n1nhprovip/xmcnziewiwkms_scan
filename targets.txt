@@ -1,0 +1,14 @@
+# =================================================================================
+# DANH SÁCH MỤC TIÊU QUÉT RECON BỀ MẶT & CVE (1 MỤC TIÊU / 1 DÒNG)
+# =================================================================================
+# Hướng dẫn:
+#   - Nhập địa chỉ IPv4, Domain, Subdomain, URL hoặc dải mạng CIDR (/29, /28, /24).
+#   - Các dòng bắt đầu bằng dấu '#' sẽ được bỏ qua.
+#   - Công cụ sẽ tự động gộp quét Port theo IP vật lý (Deduplication) và tự động
+#     mở rộng quét các Subdomain anh em trong chứng chỉ SSL (SAN Auto-Discovery).
+#
+# Ví dụ (Bỏ dấu '#' ở đầu dòng hoặc thêm IP/Domain của bạn vào bên dưới):
+# 203.0.113.10
+# example.com
+# api.example.com
+# 203.0.113.0/28
